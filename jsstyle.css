@@ -6,7 +6,7 @@ html, body {
 }
 
 body {
-    background-color: whitesmoke;
+    background-color: #e6f9f9;
 }
 
 .top-bar {
@@ -21,12 +21,12 @@ body {
    position: absolute;
    padding: 0px 0px 0px 20px;
    z-index: 3;
-   color: #131359;
+   color: #190835;
    font-weight: bold;
 }
 
 .top-menu {
-   background-color: #131359;
+   background-color: #190835;
    position: absolute;
    top: 85px;
    z-index: 2;
@@ -51,11 +51,11 @@ body {
 }
 
 .top-menu li a:hover {
-    background-color: red;
+    background-color: #665589;
 }
 
 .current-page-link {
-    background-color: #db0e0e;
+    background-color: #b183ce;
 }
 
 .page-content {
@@ -64,7 +64,7 @@ body {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    background-color: white;
+    background-color: #e6f9f9;
     z-index: 1;
 }
 
@@ -89,15 +89,40 @@ body {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    background-color:#3f3c3c;
+    background-color:#190835;
 }
 
 .footer-content {
     padding: 5px 5px 5px 20px;
     color: white;
+    opacity: 95%;
 }
 
 .footer-content a:link {
     color: white;
     text-decoration: none;
+}
+img{
+    max-width: 160px;
+    border-radius: 8px;
+}
+figcaption{
+    font-size: x-small;
+    color: gray;
+}
+p{
+    color:black
+}
+ul{
+    color:black;
+    font-size: smaller;
+    font-style: italic;
+}
+figcaption{
+    border: 2px solid aquamarine;
+    font-weight: 100;
+}
+.Location{
+    font-size: larger;
+    color: #131359;
 }
